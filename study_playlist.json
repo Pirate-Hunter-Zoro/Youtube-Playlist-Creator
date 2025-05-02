@@ -1,66 +1,456 @@
 {
-  "title": "Mikey's Ultimate Study Playlist",
-  "description": "Chill, jazzy, and emotional anime soundtracks perfect for focus and study.",
+  "title": "Study Playlist",
+  "description": "An expansive anime-inspired study playlist featuring music from Birdie Wing, Yu Yu Hakusho, Samurai Champloo, Cowboy Bebop, Blood Blockade Battlefront, and more.",
   "videos": [
     {
-      "title": "Hedgehog's Dilemma - Neon Genesis Evangelion",
-      "query": "Hedgehog's Dilemma NGE soundtrack"
+      "title": "Eve's Theme Birdie Wing OST",
+      "query": "Eve's Theme Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Tank! - Cowboy Bebop",
-      "query": "Tank! Cowboy Bebop OST"
+      "title": "Aoi's Theme Birdie Wing OST",
+      "query": "Aoi's Theme Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Space Lion - Cowboy Bebop",
-      "query": "Space Lion Cowboy Bebop OST"
+      "title": "Birdie Shot Birdie Wing OST",
+      "query": "Birdie Shot Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Rain - Cowboy Bebop",
-      "query": "Rain Cowboy Bebop OST"
+      "title": "Rain Letup Birdie Wing OST",
+      "query": "Rain Letup Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Aruarian Dance - Samurai Champloo",
-      "query": "Aruarian Dance Samurai Champloo"
+      "title": "Venus Line Birdie Wing OST",
+      "query": "Venus Line Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Mystline - Samurai Champloo",
-      "query": "Mystline Samurai Champloo"
+      "title": "Live Bullet Birdie Wing OST",
+      "query": "Live Bullet Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Battlecry - Samurai Champloo",
-      "query": "Battlecry Samurai Champloo"
+      "title": "Gift Birdie Wing OST",
+      "query": "Gift Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Theme of Blood Blockade Battlefront",
-      "query": "Theme of Blood Blockade Battlefront OST"
+      "title": "Secret Treaty Birdie Wing OST",
+      "query": "Secret Treaty Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Catch Me If You Can - BBB",
-      "query": "Catch Me If You Can Blood Blockade Battlefront OST"
+      "title": "Indignant Letter Birdie Wing OST",
+      "query": "Indignant Letter Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Venus Line - Birdie Wing",
-      "query": "Venus Line Birdie Wing Opening"
+      "title": "Virtual World Birdie Wing OST",
+      "query": "Virtual World Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Eve's Theme - Birdie Wing",
-      "query": "Eve's Theme Birdie Wing OST"
+      "title": "Take a Chance Birdie Wing OST",
+      "query": "Take a Chance Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Smile Bomb (Instrumental) - Yu Yu Hakusho",
-      "query": "Smile Bomb Instrumental Yu Yu Hakusho"
+      "title": "Get a Thrill Birdie Wing OST",
+      "query": "Get a Thrill Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Yusuke's Theme - Yu Yu Hakusho",
-      "query": "Yusuke's Theme Yu Yu Hakusho OST"
+      "title": "Blue Bullet Birdie Wing OST",
+      "query": "Blue Bullet Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Kurama's Theme - Yu Yu Hakusho",
-      "query": "Kurama's Theme Yu Yu Hakusho OST"
+      "title": "Mirthful Days Birdie Wing OST",
+      "query": "Mirthful Days Birdie Wing OST",
+      "max_results": 2
     },
     {
-      "title": "Sayonara Bye Bye - Yu Yu Hakusho",
-      "query": "Sayonara Bye Bye Yu Yu Hakusho Ending"
+      "title": "Gozo's Theme Birdie Wing OST",
+      "query": "Gozo's Theme Birdie Wing OST",
+      "max_results": 2
+    },
+    {
+      "title": "Yodaka Birdie Wing OST",
+      "query": "Yodaka Birdie Wing OST",
+      "max_results": 2
+    },
+    {
+      "title": "Whistling for My Dog Birdie Wing OST",
+      "query": "Whistling for My Dog Birdie Wing OST",
+      "max_results": 2
+    },
+    {
+      "title": "Hedgehog's Dilemma Evangelion OST",
+      "query": "Hedgehog's Dilemma Evangelion OST",
+      "max_results": 2
+    },
+    {
+      "title": "Smile Bomb Yu Yu Hakusho OST",
+      "query": "Smile Bomb Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Smile Bomb Instrumental Yu Yu Hakusho OST",
+      "query": "Smile Bomb Instrumental Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Yusuke's Theme Yu Yu Hakusho OST",
+      "query": "Yusuke's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Hiei's Theme Yu Yu Hakusho OST",
+      "query": "Hiei's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Kurama's Theme Yu Yu Hakusho OST",
+      "query": "Kurama's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Kuwabara's Theme Yu Yu Hakusho OST",
+      "query": "Kuwabara's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Koenma's Theme Yu Yu Hakusho OST",
+      "query": "Koenma's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Botan's Theme Yu Yu Hakusho OST",
+      "query": "Botan's Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Sadness Yu Yu Hakusho OST",
+      "query": "Sadness Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Tatakai no Toki Yu Yu Hakusho OST",
+      "query": "Tatakai no Toki Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Homework Never Ends Yu Yu Hakusho OST",
+      "query": "Homework Never Ends Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Sayonara Bye Bye Yu Yu Hakusho OST",
+      "query": "Sayonara Bye Bye Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Daydream Generation Yu Yu Hakusho OST",
+      "query": "Daydream Generation Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Unbalance na Kiss wo Shite Yu Yu Hakusho OST",
+      "query": "Unbalance na Kiss wo Shite Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "The Sun Will Shine Again Yu Yu Hakusho OST",
+      "query": "The Sun Will Shine Again Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Spirit Gun Theme Yu Yu Hakusho OST",
+      "query": "Spirit Gun Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Demon World Theme Yu Yu Hakusho OST",
+      "query": "Demon World Theme Yu Yu Hakusho OST",
+      "max_results": 2
+    },
+    {
+      "title": "Aruarian Dance Samurai Champloo OST",
+      "query": "Aruarian Dance Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Battlecry Samurai Champloo OST",
+      "query": "Battlecry Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Mystline Samurai Champloo OST",
+      "query": "Mystline Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "The Space Between Two Worlds Samurai Champloo OST",
+      "query": "The Space Between Two Worlds Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Thank You Samurai Champloo OST",
+      "query": "Thank You Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Kujaku Samurai Champloo OST",
+      "query": "Kujaku Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "2 Messages Samurai Champloo OST",
+      "query": "2 Messages Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Tsurugi No Mai Samurai Champloo OST",
+      "query": "Tsurugi No Mai Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Counting Stars Samurai Champloo OST",
+      "query": "Counting Stars Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Silver Children Samurai Champloo OST",
+      "query": "Silver Children Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "No Icon Samurai Champloo OST",
+      "query": "No Icon Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Reflective Samurai Champloo OST",
+      "query": "Reflective Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Tuned Samurai Champloo OST",
+      "query": "Tuned Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Process Samurai Champloo OST",
+      "query": "Process Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Who's Theme Samurai Champloo OST",
+      "query": "Who's Theme Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Just Forget Samurai Champloo OST",
+      "query": "Just Forget Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Ask Samurai Champloo OST",
+      "query": "Ask Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Obokuri Eeumi Samurai Champloo OST",
+      "query": "Obokuri Eeumi Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Shiki No Uta Samurai Champloo OST",
+      "query": "Shiki No Uta Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Hiji Zuru Style Samurai Champloo OST",
+      "query": "Hiji Zuru Style Samurai Champloo OST",
+      "max_results": 2
+    },
+    {
+      "title": "Tank! Cowboy Bebop OST",
+      "query": "Tank! Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Space Lion Cowboy Bebop OST",
+      "query": "Space Lion Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Rain Cowboy Bebop OST",
+      "query": "Rain Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Bad Dog No Biscuits Cowboy Bebop OST",
+      "query": "Bad Dog No Biscuits Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Waltz for Zizi Cowboy Bebop OST",
+      "query": "Waltz for Zizi Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Spokey Dokey Cowboy Bebop OST",
+      "query": "Spokey Dokey Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Piano Black Cowboy Bebop OST",
+      "query": "Piano Black Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Cat Blues Cowboy Bebop OST",
+      "query": "Cat Blues Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "The Egg and I Cowboy Bebop OST",
+      "query": "The Egg and I Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Mushroom Hunting Cowboy Bebop OST",
+      "query": "Mushroom Hunting Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Too Good Too Bad Cowboy Bebop OST",
+      "query": "Too Good Too Bad Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Rush Cowboy Bebop OST",
+      "query": "Rush Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Adieu Cowboy Bebop OST",
+      "query": "Adieu Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Digging My Potato Cowboy Bebop OST",
+      "query": "Digging My Potato Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Felt Tip Pen Cowboy Bebop OST",
+      "query": "Felt Tip Pen Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Memory Cowboy Bebop OST",
+      "query": "Memory Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Green Bird Cowboy Bebop OST",
+      "query": "Green Bird Cowboy Bebop OST",
+      "max_results": 2
+    },
+    {
+      "title": "Theme of BBB Blood Blockade Battlefront OST",
+      "query": "Theme of BBB Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Catch Me If You Can Blood Blockade Battlefront OST",
+      "query": "Catch Me If You Can Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Libra Blood Blockade Battlefront OST",
+      "query": "Libra Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Footloose Blood Blockade Battlefront OST",
+      "query": "Footloose Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "White Gloves Blood Blockade Battlefront OST",
+      "query": "White Gloves Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Toy Blues Blood Blockade Battlefront OST",
+      "query": "Toy Blues Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "A Way Out Blood Blockade Battlefront OST",
+      "query": "A Way Out Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Presage Blood Blockade Battlefront OST",
+      "query": "Presage Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Attack the System Blood Blockade Battlefront OST",
+      "query": "Attack the System Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "There Will Be A Day Blood Blockade Battlefront OST",
+      "query": "There Will Be A Day Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Starbow Blood Blockade Battlefront OST",
+      "query": "Starbow Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Snap Out Blood Blockade Battlefront OST",
+      "query": "Snap Out Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Victim Blood Blockade Battlefront OST",
+      "query": "Victim Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Hands On Blood Blockade Battlefront OST",
+      "query": "Hands On Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Traffic Man Blood Blockade Battlefront OST",
+      "query": "Traffic Man Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Call You Later Blood Blockade Battlefront OST",
+      "query": "Call You Later Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "World Goes Round Blood Blockade Battlefront OST",
+      "query": "World Goes Round Blood Blockade Battlefront OST",
+      "max_results": 2
+    },
+    {
+      "title": "Keep On The Sunny Side Blood Blockade Battlefront OST",
+      "query": "Keep On The Sunny Side Blood Blockade Battlefront OST",
+      "max_results": 2
     }
   ]
 }

@@ -1,13 +1,18 @@
 import json
+import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 
-# Scopes and API info
-scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
+# ----------- CONFIG -----------
+SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
+PLAYLIST_FILE = "study_playlist.json"
+CACHE_FILE = "added_videos.json"
+# ------------------------------
 
 def authenticate_youtube():
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
-        "client_secret.json", scopes)
+        "client_secret.json", SCOPES
+    )
     credentials = flow.run_local_server(port=0)
     return googleapiclient.discovery.build("youtube", "v3", credentials=credentials)
 
@@ -25,42 +30,64 @@ def create_playlist(youtube, title, description):
         }
     )
     response = request.execute()
+    print(f"🎉 Playlist created: https://www.youtube.com/playlist?list={response['id']}")
     return response["id"]
 
-def search_and_add_videos(youtube, playlist_id, queries):
-    for video in queries:
-        request = youtube.search().list(
+def search_and_add_videos(youtube, playlist_id, videos, added_video_ids):
+    for video in videos:
+        print(f"\n🔎 Searching: {video['query']}")
+
+        search_results = youtube.search().list(
             part="snippet",
             q=video["query"],
             type="video",
-            maxResults=1
-        )
-        search_response = request.execute()
-        video_id = search_response["items"][0]["id"]["videoId"]
+            maxResults=video.get("max_results", 1)
+        ).execute()
 
-        add_request = youtube.playlistItems().insert(
-            part="snippet",
-            body={
-                "snippet": {
-                    "playlistId": playlist_id,
-                    "resourceId": {
-                        "kind": "youtube#video",
-                        "videoId": video_id
+        for item in search_results["items"]:
+            video_id = item["id"]["videoId"]
+            title = item["snippet"]["title"]
+
+            if video_id not in added_video_ids:
+                youtube.playlistItems().insert(
+                    part="snippet",
+                    body={
+                        "snippet": {
+                            "playlistId": playlist_id,
+                            "resourceId": {
+                                "kind": "youtube#video",
+                                "videoId": video_id
+                            }
+                        }
                     }
-                }
-            }
-        )
-        add_request.execute()
-        print(f"✅ Added: {video['title']}")
+                ).execute()
+                added_video_ids.add(video_id)
+                print(f"✅ Added: {title}")
+            else:
+                print(f"⏩ Skipped duplicate (seen before): {title}")
 
 def main():
-    with open("study_playlist.json", "r") as f:
+    # Load playlist JSON
+    with open(PLAYLIST_FILE, "r") as f:
         data = json.load(f)
 
+    # Load previously added video IDs
+    if os.path.exists(CACHE_FILE):
+        with open(CACHE_FILE, "r") as f:
+            added_video_ids = set(json.load(f))
+    else:
+        added_video_ids = set()
+
+    # Authenticate and create playlist
     youtube = authenticate_youtube()
     playlist_id = create_playlist(youtube, data["title"], data["description"])
-    search_and_add_videos(youtube, playlist_id, data["videos"])
-    print(f"🎉 Playlist created: https://www.youtube.com/playlist?list={playlist_id}")
+
+    # Search & add videos
+    search_and_add_videos(youtube, playlist_id, data["videos"], added_video_ids)
+
+    # Save updated cache
+    with open(CACHE_FILE, "w") as f:
+        json.dump(list(added_video_ids), f, indent=2)
 
 if __name__ == "__main__":
     main()
