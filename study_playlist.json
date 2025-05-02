@@ -1,0 +1,66 @@
+{
+  "title": "Mikey's Ultimate Study Playlist",
+  "description": "Chill, jazzy, and emotional anime soundtracks perfect for focus and study.",
+  "videos": [
+    {
+      "title": "Hedgehog's Dilemma - Neon Genesis Evangelion",
+      "query": "Hedgehog's Dilemma NGE soundtrack"
+    },
+    {
+      "title": "Tank! - Cowboy Bebop",
+      "query": "Tank! Cowboy Bebop OST"
+    },
+    {
+      "title": "Space Lion - Cowboy Bebop",
+      "query": "Space Lion Cowboy Bebop OST"
+    },
+    {
+      "title": "Rain - Cowboy Bebop",
+      "query": "Rain Cowboy Bebop OST"
+    },
+    {
+      "title": "Aruarian Dance - Samurai Champloo",
+      "query": "Aruarian Dance Samurai Champloo"
+    },
+    {
+      "title": "Mystline - Samurai Champloo",
+      "query": "Mystline Samurai Champloo"
+    },
+    {
+      "title": "Battlecry - Samurai Champloo",
+      "query": "Battlecry Samurai Champloo"
+    },
+    {
+      "title": "Theme of Blood Blockade Battlefront",
+      "query": "Theme of Blood Blockade Battlefront OST"
+    },
+    {
+      "title": "Catch Me If You Can - BBB",
+      "query": "Catch Me If You Can Blood Blockade Battlefront OST"
+    },
+    {
+      "title": "Venus Line - Birdie Wing",
+      "query": "Venus Line Birdie Wing Opening"
+    },
+    {
+      "title": "Eve's Theme - Birdie Wing",
+      "query": "Eve's Theme Birdie Wing OST"
+    },
+    {
+      "title": "Smile Bomb (Instrumental) - Yu Yu Hakusho",
+      "query": "Smile Bomb Instrumental Yu Yu Hakusho"
+    },
+    {
+      "title": "Yusuke's Theme - Yu Yu Hakusho",
+      "query": "Yusuke's Theme Yu Yu Hakusho OST"
+    },
+    {
+      "title": "Kurama's Theme - Yu Yu Hakusho",
+      "query": "Kurama's Theme Yu Yu Hakusho OST"
+    },
+    {
+      "title": "Sayonara Bye Bye - Yu Yu Hakusho",
+      "query": "Sayonara Bye Bye Yu Yu Hakusho Ending"
+    }
+  ]
+}
