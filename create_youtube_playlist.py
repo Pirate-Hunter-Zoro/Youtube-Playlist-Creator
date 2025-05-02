@@ -8,7 +8,7 @@ scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 def authenticate_youtube():
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
         "client_secret.json", scopes)
-    credentials = flow.run_console()
+    credentials = flow.run_local_server(port=0)
     return googleapiclient.discovery.build("youtube", "v3", credentials=credentials)
 
 def create_playlist(youtube, title, description):
