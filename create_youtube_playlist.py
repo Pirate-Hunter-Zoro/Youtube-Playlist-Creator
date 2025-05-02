@@ -1,8 +1,6 @@
 import json
-import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
-import googleapiclient.errors
 
 # Scopes and API info
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
@@ -56,7 +54,7 @@ def search_and_add_videos(youtube, playlist_id, queries):
         print(f"✅ Added: {video['title']}")
 
 def main():
-    with open("mikey_study_playlist.json", "r") as f:
+    with open("study_playlist.json", "r") as f:
         data = json.load(f)
 
     youtube = authenticate_youtube()
