@@ -69,7 +69,7 @@ def search_and_add_videos(youtube, playlist_id, videos, added_video_ids):
             part="snippet",
             q=video["query"],
             type="video",
-            maxResults=video.get("max_results", 1)
+            maxResults=1
         ).execute()
 
         for item in search_results["items"]:
