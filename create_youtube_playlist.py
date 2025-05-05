@@ -7,7 +7,7 @@ import googleapiclient.errors
 
 # ----------- CONFIG -----------
 SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-PLAYLIST_FILE = "study_playlist.json"
+PLAYLIST_FILE = "playlist.json"
 CACHE_FILE = "added_videos.json"
 PLAYLIST_ID_FILE = "playlist_id.txt"
 # ------------------------------
